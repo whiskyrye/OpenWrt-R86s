@@ -51,7 +51,7 @@ luci-app-uhttpd   HTTP(S) 服务器
 
 luci-app-unblockmusic  解锁网易云灰色歌曲
 
-# CONFIG_PACKAGE_luci-app-vsftpd is not set  取消FTP服务
+CONFIG_PACKAGE_luci-app-vsftpd is not set  取消FTP服务
 
 luci-app-wrtbwmon  实时流量监控
 
