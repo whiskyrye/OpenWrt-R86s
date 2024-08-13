@@ -9,7 +9,7 @@
 
 *docker
 
-*istore (如果安装插件时出现卡在Downloading****.ipk,需要使用代理)
+**istore (如果安装插件时出现卡在Downloading****.ipk,需要使用代理)
 
 *argone、neobird主题
 
