@@ -1,26 +1,33 @@
-**English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
-
-# Actions-OpenWrt
-
-[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
-![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
-![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
-
-A template for building OpenWrt with GitHub Actions
-
-## Usage
-
-- Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
-- Generate `.config` files using [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) source code. ( You can change it through environment variables in the workflow file. )
-- Push `.config` file to the GitHub repository.
-- Select `Build OpenWrt` on the Actions page.
-- Click the `Run workflow` button.
-- When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
-
-## Tips
-
-- It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
-- Add some meta info of your built firmware (such as firmware architecture and installed packages) to your repository introduction, this will save others' time.
+**R86S-OPENWRT固件**
+访问：192.168.1.1 root/password
+# 基本功能
+*ipv6
+*wifi (mt7921k)
+*docker
+*istore (如果安装插件时出现卡在Downloading****.ipk,需要使用代理)
+*argone、neobird主题
+# 插件
+luci-app-adbyby-plus  广告屏蔽大师Plus+
+uci-app-adguardhome  AdGuard Home
+luci-app-aria2  aria2下载工具
+luci-app-diskman  磁盘管理
+luci-app-dockerman  docker
+luci-app-eqos  IP限速
+luci-app-lucky  Lucky大吉(端口转发、动态域名、反代)
+luci-app-mosdns  DNS分流
+luci-app-mwan3helper 多wan分流助手
+luci-app-onliner  在线用户
+luci-app-passwall（Haproxy、Hysteria、NaiveProxy、V2ray、Xray、SingBox） passwall
+luci-app-serverchan  微信推送
+luci-app-softethervpn  SoftEther VPN
+luci-app-ssr-plus（Hysteria、NaiveProxy、V2ray、Xray、SingBox） 酸酸乳+
+luci-app-store  Istore应用商店
+luci-app-transmission  bittorrent 客户端
+luci-app-uhttpd   HTTP(S) 服务器
+luci-app-unblockmusic  解锁网易云灰色歌曲
+# CONFIG_PACKAGE_luci-app-vsftpd is not set  取消FTP服务
+luci-app-wrtbwmon  实时流量监控
+luci-app-zerotier  内网穿透
 
 ## Credits
 
