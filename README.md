@@ -23,7 +23,7 @@ luci-app-aria2  aria2下载工具
 
 luci-app-diskman  磁盘管理
 
-luci-app-dockerman  docker
+luci-app-dockerman  docker管理
 
 luci-app-eqos  IP限速
 
