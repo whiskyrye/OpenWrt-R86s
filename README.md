@@ -3,15 +3,15 @@
 访问：192.168.1.1 root/password
 # 基本功能
 
-**ipv6
+**ipv6**
 
-**wifi (mt7921k)
+**wifi (mt7921k)**
 
-**docker
+**docker**
 
-**istore (如果安装插件时出现卡在Downloading****.ipk,需要使用代理)
+**istore (如果安装插件时出现卡在Downloading。。。.ipk,需要使用代理)**
 
-**argone、neobird主题
+**argone、neobird 主题**
 
 # 插件
 
