@@ -27,15 +27,19 @@ luci-app-dockerman  docker管理
 
 luci-app-eqos  IP限速
 
+luci-app-fileassistant 文件助手
+
 luci-app-lucky  Lucky大吉(端口转发、动态域名、反代)
 
 luci-app-mosdns  DNS分流
 
 luci-app-mwan3helper 多wan分流助手
 
+luci-app-nfs  nfs共享
+
 luci-app-onliner  在线用户
 
-luci-app-passwall（Haproxy、Hysteria、NaiveProxy、V2ray、Xray、SingBox） passwall
+luci-app-passwall2（Haproxy、Hysteria、NaiveProxy、V2ray、Xray、SingBox） passwall2
 
 luci-app-serverchan  微信推送
 
@@ -45,11 +49,11 @@ luci-app-ssr-plus（Hysteria、NaiveProxy、V2ray、Xray、SingBox） 酸酸乳+
 
 luci-app-store  Istore应用商店
 
-luci-app-transmission  bittorrent 客户端
+luci-app-transmission  bt客户端
+
+luci-app-ttyd 终端
 
 luci-app-uhttpd   HTTP(S) 服务器
-
-luci-app-unblockmusic  解锁网易云灰色歌曲
 
 CONFIG_PACKAGE_luci-app-vsftpd is not set  取消FTP服务
 
