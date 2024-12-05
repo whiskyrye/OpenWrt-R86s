@@ -11,7 +11,7 @@
 
 **istore (如果安装插件时出现卡在Downloading。。。.ipk,需要使用代理)**
 
-**argone、neobird 主题**
+**argon主题**
 
 # 插件
 
@@ -35,21 +35,21 @@ luci-app-mosdns  DNS分流
 
 luci-app-mwan3helper 多wan分流助手
 
-luci-app-nfs  nfs共享
-
 luci-app-onliner  在线用户
 
-luci-app-passwall2（Haproxy、Hysteria、NaiveProxy、V2ray、Xray、SingBox） passwall2
+luci-app-openclash  openclash
+
+luci-app-passwall （Haproxy、Hysteria、V2ray、Xray、SingBox） passwall
 
 luci-app-serverchan  微信推送
 
+luci-app-smartdns  smartdns
+
 luci-app-softethervpn  SoftEther VPN
 
-luci-app-ssr-plus（Hysteria、NaiveProxy、V2ray、Xray、SingBox） 酸酸乳+
+luci-app-ssr-plus（Hysteria、V2ray、Xray、SingBox） 酸酸乳+
 
 luci-app-store  Istore应用商店
-
-luci-app-transmission  bt客户端
 
 luci-app-ttyd 终端
 
